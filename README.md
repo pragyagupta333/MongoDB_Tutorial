@@ -96,6 +96,11 @@ Ex :
   "user_id": ObjectId("user1")
 }
 ```
+
+### DataTypes In MongoDb
+
+![datatypes](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/3c8edcc1-2755-43c6-89df-a6c5a3b3f560)
+
 ## Commands In MongoDB
 - ### View list Of Database
    
@@ -177,3 +182,37 @@ Similar to truncate of SQL :
 - Filter Using 'In' (for list of values)
 
 ![where_in](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/3619dc8d-1602-48a2-8221-1a9670d71f16)
+
+- Greator than equal to ($gte)
+
+![wheregte](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/e87ed1af-3264-4722-a319-a241a3c32bb5)
+
+-  Not equal to ($ne)
+
+![where_notEqual](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/df07a193-0b3e-4163-82ed-e1d0b6d94b66)
+
+- AND Operation
+
+![and](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/e1782e2e-78ef-4500-ad77-c15b2ddb1941)
+
+- OR Operation
+
+![or](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/551d2aae-3c9f-4aaf-8bf8-3d04fc77d538)
+
+### Sorting 
+
+![ascSort](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/a5817b97-d04a-4a98-9637-424f35ac8d9e)
+
+![desc](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/9eb2499b-0371-4095-8ffd-8bc07407a472)
+
+### Limit 
+
+![limit](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/ca91f68e-59a7-456d-8293-12cdd80b780c)
+
+### Skip 
+
+![skip](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/281cbc5c-13ee-4acb-b106-b732526c703e)
+
+### Limit & Skip
+
+![limitSkip-Skips1record DisplayNext2](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/ee72160c-0333-4f3a-a3a0-2e4359520f06)
