@@ -69,6 +69,8 @@ Therfore,The collection can store products with varying attributes without requi
 
 ## Comparision With RDBMS
 
+![04](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/1036e5c6-b0f9-42fd-b751-b7299e9b929f)
+
 
 ## Data Modelling
 There are 2 ways in which the relationships between the data can be established in MongoDB:
