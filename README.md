@@ -42,6 +42,11 @@ NoSQL : Not Only Structured Query Language.
 ![05](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/a0e443c3-f1ac-409d-9ace-cdb73c90bbbf)
 
 ### What do you mean by "MongoDB has Dynamic Schema" ?
+Schema design determines the way an application handles its data. With traditional relational databases, you must define your schema before you can add any data. 
+This inflexibility means you can’t change your schema as your data, application requirements or business evolves.
+
+MongoDB allows you to insert data without a predefined schema.
+
 For example : Consider a collection named "products" that stores information about different products. 
 ![09](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/97e2dcf2-e17a-4591-8644-43f7f7e91a88)
 
