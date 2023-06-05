@@ -67,11 +67,6 @@ Therfore,The collection can store products with varying attributes without requi
 -  These 12 bytes first 4 bytes for the current timestamp, next 3 bytes for machine id, next 2 bytes for process id of MongoDB server and remaining 3 bytes are simple incremental VALUE.
 
 
-## Comparision With RDBMS
-
-![04](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/1036e5c6-b0f9-42fd-b751-b7299e9b929f)
-
-
 ## Data Modelling
 There are 2 ways in which the relationships between the data can be established in MongoDB:
 
