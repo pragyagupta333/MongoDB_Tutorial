@@ -19,3 +19,18 @@ However, MongoDB does not enforce referential integrity or provide built-in mech
 **Reason**:
 
 MongoDB allows for flexible schema designs where each document can have its own structure. This flexibility enables easy modification of the data model without the need to update or migrate existing records. Adding foreign key constraints would impose a rigid structure on the data, which goes against the schema-less approach.
+
+## Does MongoDB support ACID transaction management ?
+
+## Explain the structure of ObjectID in MongoDB.
+
+ObjectID is a 12-byte BSON type with:
+
+- 4 bytes value representing seconds
+- 3 byte machine identifier
+- 2 byte process id
+- 3 byte counter
+
+## How many indexes does MongoDB create by default for a new collection?
+
+By default, MongoDB created the _id collection for every collection.
