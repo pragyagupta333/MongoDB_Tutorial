@@ -11,7 +11,9 @@ Also, MongoDB database are faster as compared to SQL databases due to efficient 
 
 ## Does MongoDB support foreign key constraints?
 
-No,In MongoDB, you can model relationships between documents using [**references** or **embedding**. ](https://github.com/pragyagupta333/MongoDB_Tutorial/blob/main/Basic_Overview.md)
+No,In MongoDB, you can model relationships between documents using **references** or **embedding**.
+[Refer Data Modelling Section For references and embedding in mongoDB](https://github.com/pragyagupta333/MongoDB_Tutorial/blob/main/Basic_Overview.md)
+
 However, MongoDB does not enforce referential integrity or provide built-in mechanisms for maintaining or enforcing foreign key constraints.
 
 **Reason**:
