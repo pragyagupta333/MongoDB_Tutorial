@@ -91,6 +91,21 @@ db.listandreviews.find({"property_type": "House"})
 ```
 ![image](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/94d77291-da51-41a0-b0c2-04054748d5c9)
 
+## 11. Find all the listings in the listingsAndReviews collection with listing_url, name, host_name, host_location, reviewer_name and price that have a nightly price greater than $500.
+
+```
+db.listandreviews.find({ "price": { $gt: 500 } }).forEach(function(doc)
+ {
+print("listing url : " + doc.listing_url);
+print("name : " + doc.name);
+print("host name : " +doc.host.host_name);
+print("host location : " +doc.host.host_location);
+print("reviewer name : " + doc.reviews.reviewer_name);
+print("price : " +doc.price);
+});
+```
+![image](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/71a2b2e9-9630-460b-a9b0-1b73fcd94fa9)
+
 
 ## 
 
