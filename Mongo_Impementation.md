@@ -29,7 +29,7 @@ print("Host About: " + doc.host.host_about);
 ```
 ![image](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/9e49bbac-311d-4e8d-8f0d-33897a780d21)
 
-[ForEach](https://examples.javacodegeeks.com/software-development/mongodb/mongodb-foreach-example/)
+[ForEach()](https://examples.javacodegeeks.com/software-development/mongodb/mongodb-foreach-example/)
 ## 4. Retrieve the number of bedrooms in the first record in the listingsAndReviews collection.
 
 ```
