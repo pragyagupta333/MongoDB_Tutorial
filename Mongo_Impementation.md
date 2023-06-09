@@ -33,9 +33,10 @@ print("Host About: " + doc.host.host_about);
 ## 4. Retrieve the number of bedrooms in the first record in the listingsAndReviews collection.
 
 ```
-
+db.listandreviews.findOne().bedrooms
 
 ```
+![image](https://github.com/pragyagupta333/MongoDB_Tutorial/assets/125549428/e2c36b56-91d4-498a-bc0f-a32aba2ba32c)
 
 ## 
 
